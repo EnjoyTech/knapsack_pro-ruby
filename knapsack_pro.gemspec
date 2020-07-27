@@ -39,4 +39,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'vcr', '~> 2.9'
   spec.add_development_dependency 'webmock', '~> 1.21'
   spec.add_development_dependency 'timecop', '>= 0.1.0'
+  spec.add_development_dependency 'spring'
+  spec.add_development_dependency 'spring-commands-rspec'
 end
