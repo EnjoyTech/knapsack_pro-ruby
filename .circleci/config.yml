@@ -35,4 +35,4 @@ jobs:
           key: v2-dependencies-bundler-{{ checksum "knapsack_pro.gemspec" }}
 
       # run tests!
-      - run: bin/rspec spec
+      - run: bundle exec rspec spec

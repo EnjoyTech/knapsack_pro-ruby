@@ -114,7 +114,7 @@ module KnapsackPro
           stringify_cli_args.slice!("--format #{KnapsackPro::Formatters::RSpecQueueSummaryFormatter}")
 
           KnapsackPro.logger.info(
-            "bin/rspec #{stringify_cli_args} " +
+            "bundle exec rspec #{stringify_cli_args} " +
             KnapsackPro::TestFilePresenter.stringify_paths(test_file_paths)
           )
         end
